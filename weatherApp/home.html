@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <!-- main container -->
+    <div class="container">
+        <section class="upper-section">
+            <div class="forecast-container">
+                <h2 class="forecast-heading">7-Day Forecast</h2>
+                <!-- card 1 -->
+                <div class="forecast-card">
+                    <div class="date">
+                        <span class="days">Today</span>
+                        <span class="forecast-date"></span>
+                    </div>
+                    <div class="weather">
+                        <span class="forecast-weather-condition"></span>
+                        <img src="./Assets/rain.png" alt="rain" class="forecast-image-data">
+                    </div>
+                    <div class="temp">
+                        <span>Average Temp</span>
+                        <div>
+                            <span class="forecast-temp-data">32</span>
+                            <span>&deg:C</span>
+                        </div>
+                    </div>
+                    <p class="rain">
+                        <span>Chances of Rain(%)</span>
+                        <span class="forecast-rain-data">0</span>
+                    </p>
+                    <div class="humidity">
+                        <span>Average Humidity</span>
+                        <div>
+                            <span class="forecast-humidity-data">50</span>
+                            <span>%</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- card two -->
+                <div class="forecast-card">
+                    <div class="date">
+                        <span class="days">Tomorrow</span>
+                        <span class="forecast-date"></span>
+                    </div>
+                    <div class="weather">
+                        <span class="forecast-weather-condition"></span>
+                        <img src="./Assets/rain.png" alt="rain" class="forecast-image-data">
+                    </div>
+                    <div class="temp">
+                        <span>Average Temp</span>
+                        <div>
+                            <span class="forecast-temp-data">32</span>
+                            <span>&deg:C</span>
+                        </div>
+                    </div>
+                    <p class="rain">
+                        <span>Chances of Rain(%)</span>
+                        <span class="forecast-rain-data">0</span>
+                    </p>
+                    <div class="humidity">
+                        <span>Average Humidity</span>
+                        <div>
+                            <span class="forecast-humidity-data">50</span>
+                            <span>%</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- card three -->
+                <div class="forecast-card">
+                    <div class="date">
+                        <span class="days">Tomorrow</span>
+                        <span class="forecast-date"></span>
+                    </div>
+                    <div class="weather">
+                        <span class="forecast-weather-condition"></span>
+                        <img src="./Assets/rain.png" alt="rain" class="forecast-image-data">
+                    </div>
+                    <div class="temp">
+                        <span>Average Temp</span>
+                        <div>
+                            <span class="forecast-temp-data">32</span>
+                            <span>&deg:C</span>
+                        </div>
+                    </div>
+                    <p class="rain">
+                        <span>Chances of Rain(%)</span>
+                        <span class="forecast-rain-data">0</span>
+                    </p>
+                    <div class="humidity">
+                        <span>Average Humidity</span>
+                        <div>
+                            <span class="forecast-humidity-data">50</span>
+                            <span>%</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- card fore -->
+                <div class="forecast-card">
+                    <div class="date">
+                        <span class="days">Tomorrow</span>
+                        <span class="forecast-date"></span>
+                    </div>
+                    <div class="weather">
+                        <span class="forecast-weather-condition"></span>
+                        <img src="./Assets/rain.png" alt="rain" class="forecast-image-data">
+                    </div>
+                    <div class="temp">
+                        <span>Average Temp</span>
+                        <div>
+                            <span class="forecast-temp-data">32</span>
+                            <span>&deg:C</span>
+                        </div>
+                    </div>
+                    <p class="rain">
+                        <span>Chances of Rain(%)</span>
+                        <span class="forecast-rain-data">0</span>
+                    </p>
+                    <div class="humidity">
+                        <span>Average Humidity</span>
+                        <div>
+                            <span class="forecast-humidity-data">50</span>
+                            <span>%</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- card five -->
+                <div class="forecast-card">
+                    <div class="date">
+                        <span class="days">Tomorrow</span>
+                        <span class="forecast-date"></span>
+                    </div>
+                    <div class="weather">
+                        <span class="forecast-weather-condition"></span>
+                        <img src="./Assets/rain.png" alt="rain" class="forecast-image-data">
+                    </div>
+                    <div class="temp">
+                        <span>Average Temp</span>
+                        <div>
+                            <span class="forecast-temp-data">32</span>
+                            <span>&deg:C</span>
+                        </div>
+                    </div>
+                    <p class="rain">
+                        <span>Chances of Rain(%)</span>
+                        <span class="forecast-rain-data">0</span>
+                    </p>
+                    <div class="humidity">
+                        <span>Average Humidity</span>
+                        <div>
+                            <span class="forecast-humidity-data">50</span>
+                            <span>%</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- card six -->
+                <div class="forecast-card">
+                    <div class="date">
+                        <span class="days">Tomorrow</span>
+                        <span class="forecast-date"></span>
+                    </div>
+                    <div class="weather">
+                        <span class="forecast-weather-condition"></span>
+                        <img src="./Assets/rain.png" alt="rain" class="forecast-image-data">
+                    </div>
+                    <div class="temp">
+                        <span>Average Temp</span>
+                        <div>
+                            <span class="forecast-temp-data">32</span>
+                            <span>&deg:C</span>
+                        </div>
+                    </div>
+                    <p class="rain">
+                        <span>Chances of Rain(%)</span>
+                        <span class="forecast-rain-data">0</span>
+                    </p>
+                    <div class="humidity">
+                        <span>Average Humidity</span>
+                        <div>
+                            <span class="forecast-humidity-data">50</span>
+                            <span>%</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- card seven -->
+                <div class="forecast-card">
+                    <div class="date">
+                        <span class="days">Tomorrow</span>
+                        <span class="forecast-date"></span>
+                    </div>
+                    <div class="weather">
+                        <span class="forecast-weather-condition"></span>
+                        <img src="./Assets/rain.png" alt="rain" class="forecast-image-data">
+                    </div>
+                    <div class="temp">
+                        <span>Average Temp</span>
+                        <div>
+                            <span class="forecast-temp-data">32</span>
+                            <span>&deg:C</span>
+                        </div>
+                    </div>
+                    <p class="rain">
+                        <span>Chances of Rain(%)</span>
+                        <span class="forecast-rain-data">0</span>
+                    </p>
+                    <div class="humidity">
+                        <span>Average Humidity</span>
+                        <div>
+                            <span class="forecast-humidity-data">50</span>
+                            <span>%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="lower-section">
+            <p class="current-weather-heading">Current Weather</p>
+            <div class="lower-containers">
+                <!-- current weather -->
+                <div class="weather-card">
+                    <form class="search-container" onsubmit="getData(event)">
+                        <input type="search" name="search" id="search" placeholder="Enter City Name"
+                            onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter City Name'" />
+                        <img src="./Assets/search.png" alt="search-icon">
+                        <button type="submit" class="" search-btn>Search</button>
+                    </form>
+                    <img src="./Assets/rainy-day.png" alt="" class="weather-icon">
+                    <p class="weather-temp">
+                        <span class="curr-temp">30</span><span>&deg;</span><span>C</span>
+                    </p>
+                    <p class="weather-status">Rainy</p>
+                    <div class="location">
+                        <img src="./Assets/google-maps.png" alt="google-maps">
+                        <span class="city">Kolkata</span>
+                        <span>,&nbsp;</span><span class="country">India</span>
+                    </div>
+                </div>
+                <!-- Weather Highlights -->
+                <div class="weather-highlight-container">
+                    <h2 class="highlights-heading">Today's Highlights</h2>
+                    <div class="highlight-cards">
+                        <div class="card card-uv">
+                            <span>UV Index</span>
+                            <img src="./Assets/uv.png" alt="uv">
+                            <span class="uv-data">4</span>
+                        </div>
+                        <div class="card card-wind">
+                            <span>Wind Status</span>
+                            <img src="./Assets/wind.png" alt="">
+                            <span class="wind-data">6.50</span><span>km/h</span>
+                        </div>
+                        <div class="card card-sun">
+                            <span>Sunrise & Sunset</span>
+                            <div class="sunrise">
+                                <img src="./Assets/sunrise.png" alt="">
+                                <span>6:00 AM</span>
+                            </div>
+                            <div class="sunset">
+                                <img src="./Assets/sunset.png" alt="">
+                                <span>6:00 AM</span>
+                            </div>
+                        </div>
+                        <div class="card card-humidity">
+                            <span>Humidity</span>
+                            <img src="./Assets/humidity.png" alt="">
+                            <span>
+                                <span class="humidity-data">50</span><span>%</span>
+                            </span>
+                        </div>
+                        <div class="card card-visibility">
+                            <span>Visibility</span>
+                            <img src="./Assets/haze.png" alt="">
+                            <span>
+                                <span class="visibility-data">4.2</span><span>km</span>
+                            </span>
+                        </div>
+                        <div class="card card-feels-like">
+                            <span>Feels Like</span>
+                            <img src="./Assets/weather.png" alt="">
+                            <span>
+                                <span class="feels-like-data">28</span><span>&deg;C</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
